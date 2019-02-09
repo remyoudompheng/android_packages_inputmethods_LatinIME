@@ -1639,12 +1639,7 @@
         <item>1F649</item>
         <item>1F64A</item>
         <!-- person -->
-        <item>1F476</item>
-        <item>1F476,1F3FB</item>
-        <item>1F476,1F3FC</item>
-        <item>1F476,1F3FD</item>
-        <item>1F476,1F3FE</item>
-        <item>1F476,1F3FF</item>
+        <item>1F476+1F476,1F3FB+1F476,1F3FC+1F476,1F3FD+1F476,1F3FE+1F476,1F3FF</item>
         <item>1F9D2</item>
         <item>1F9D2,1F3FB</item>
         <item>1F9D2,1F3FC</item>

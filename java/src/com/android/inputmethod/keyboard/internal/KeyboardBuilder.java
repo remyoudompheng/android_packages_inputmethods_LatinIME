@@ -430,13 +430,23 @@ public class KeyboardBuilder<KP extends KeyboardParams> {
                 final int code;
                 final String outputText;
                 final int supportedMinSdkVersion;
+                MoreKeySpec[] moreKeys;
                 if (codesArrayId != 0) {
-                    final String codeArraySpec = array[i];
+                    final String[] codeArraySpecs = array[i].split("\\+");
+                    final String codeArraySpec = codeArraySpecs[0];
                     label = CodesArrayParser.parseLabel(codeArraySpec);
                     code = CodesArrayParser.parseCode(codeArraySpec);
                     outputText = CodesArrayParser.parseOutputText(codeArraySpec);
                     supportedMinSdkVersion =
                             CodesArrayParser.getMinSupportSdkVersion(codeArraySpec);
+                    if (codeArraySpecs.length > 1) {
+                        moreKeys = new MoreKeySpec[codeArraySpecs.length-1];
+                        for (int mi = 1; mi < codeArraySpecs.length; mi++) {
+                            label = CodesArrayParser.parseLabel(codeArraySpec);
+                            outputText = CodesArrayParser.parseOutputText(codeArraySpec);
+                            moreKeys[mi-1] = MoreKeySpec(label, outputText);
+                        }
+                    }
                 } else {
                     final String textArraySpec = array[i];
                     // TODO: Utilize KeySpecParser or write more generic TextsArrayParser.
@@ -455,9 +465,12 @@ public class KeyboardBuilder<KP extends KeyboardParams> {
                 final int y = row.getKeyY();
                 final int width = (int)keyWidth;
                 final int height = row.getRowHeight();
-                final Key key = new Key(label, KeyboardIconsSet.ICON_UNDEFINED, code, outputText,
+                Key key = new Key(label, KeyboardIconsSet.ICON_UNDEFINED, code, outputText,
                         null /* hintLabel */, labelFlags, backgroundType, x, y, width, height,
                         mParams.mHorizontalGap, mParams.mVerticalGap);
+                if (moreKeys != null) {
+                    key.setMoreKeys(moreKeys);
+                }
                 endKey(key);
                 row.advanceXPos(keyWidth);
             }

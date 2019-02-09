@@ -578,6 +578,11 @@ public class Key implements Comparable<Key> {
         return mMoreKeys;
     }
 
+    public setMoreKeys(MoreKeySpec[] moreKeys) {
+        mActionFlags |= ACTION_FLAGS_ENABLE_LONG_PRESS;
+        mMoreKeys = moreKeys;
+    }
+
     public void markAsLeftEdge(final KeyboardParams params) {
         mHitBox.left = params.mLeftPadding;
     }

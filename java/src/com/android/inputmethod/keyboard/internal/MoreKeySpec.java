@@ -76,6 +76,15 @@ public final class MoreKeySpec {
         mIconId = KeySpecParser.getIconId(moreKeySpec);
     }
 
+    /** A constructor for MoreKeys in Grid widgets.
+     */
+    public MoreKeySpec(@Nonnull final String label, @Nonnull final String outputText) {
+        mCode = Constants.CODE_OUTPUT_TEXT;
+        mLabel = label;
+        mOutputText = outputText;
+        mIconId = KeyboardIconsSet.ICON_UNDEFINED;
+    }
+
     @Nonnull
     public Key buildKey(final int x, final int y, final int labelFlags,
             @Nonnull final KeyboardParams params) {
