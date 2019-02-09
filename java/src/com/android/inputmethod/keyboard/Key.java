@@ -415,7 +415,7 @@ public class Key implements Comparable<Key> {
         this(key, key.mMoreKeys);
     }
 
-    protected Key(@Nonnull final Key key, @Nullable final MoreKeySpec[] moreKeys) {
+    public Key(@Nonnull final Key key, @Nullable final MoreKeySpec[] moreKeys) {
         // Final attributes.
         mCode = key.mCode;
         mLabel = key.mLabel;
