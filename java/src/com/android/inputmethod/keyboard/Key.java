@@ -415,7 +415,7 @@ public class Key implements Comparable<Key> {
         this(key, key.mMoreKeys);
     }
 
-    private Key(@Nonnull final Key key, @Nullable final MoreKeySpec[] moreKeys) {
+    protected Key(@Nonnull final Key key, @Nullable final MoreKeySpec[] moreKeys) {
         // Final attributes.
         mCode = key.mCode;
         mLabel = key.mLabel;
@@ -576,11 +576,6 @@ public class Key implements Comparable<Key> {
     @Nullable
     public MoreKeySpec[] getMoreKeys() {
         return mMoreKeys;
-    }
-
-    public void setMoreKeys(MoreKeySpec[] moreKeys) {
-        mActionFlags |= ACTION_FLAGS_ENABLE_LONG_PRESS;
-        mMoreKeys = moreKeys;
     }
 
     public void markAsLeftEdge(final KeyboardParams params) {

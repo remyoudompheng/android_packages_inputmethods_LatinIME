@@ -430,7 +430,7 @@ public class KeyboardBuilder<KP extends KeyboardParams> {
                 final int code;
                 final String outputText;
                 final int supportedMinSdkVersion;
-                MoreKeySpec[] moreKeys;
+                MoreKeySpec[] moreKeys = null;
                 if (codesArrayId != 0) {
                     final String[] codeArraySpecs = array[i].split("\\+");
                     final String codeArraySpec = codeArraySpecs[0];
@@ -442,8 +442,8 @@ public class KeyboardBuilder<KP extends KeyboardParams> {
                     if (codeArraySpecs.length > 1) {
                         moreKeys = new MoreKeySpec[codeArraySpecs.length-1];
                         for (int mi = 1; mi < codeArraySpecs.length; mi++) {
-                            label = CodesArrayParser.parseLabel(codeArraySpec);
-                            outputText = CodesArrayParser.parseOutputText(codeArraySpec);
+                            final String label = CodesArrayParser.parseLabel(codeArraySpec);
+                            final String outputText = CodesArrayParser.parseOutputText(codeArraySpec);
                             moreKeys[mi-1] = new MoreKeySpec(label, outputText);
                         }
                     }
@@ -469,7 +469,7 @@ public class KeyboardBuilder<KP extends KeyboardParams> {
                         null /* hintLabel */, labelFlags, backgroundType, x, y, width, height,
                         mParams.mHorizontalGap, mParams.mVerticalGap);
                 if (moreKeys != null) {
-                    key.setMoreKeys(moreKeys);
+                    key = Key(key, moreKeys);
                 }
                 endKey(key);
                 row.advanceXPos(keyWidth);
