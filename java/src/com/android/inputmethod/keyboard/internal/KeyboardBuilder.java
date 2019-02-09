@@ -444,7 +444,7 @@ public class KeyboardBuilder<KP extends KeyboardParams> {
                         for (int mi = 1; mi < codeArraySpecs.length; mi++) {
                             label = CodesArrayParser.parseLabel(codeArraySpec);
                             outputText = CodesArrayParser.parseOutputText(codeArraySpec);
-                            moreKeys[mi-1] = MoreKeySpec(label, outputText);
+                            moreKeys[mi-1] = new MoreKeySpec(label, outputText);
                         }
                     }
                 } else {

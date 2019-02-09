@@ -578,7 +578,7 @@ public class Key implements Comparable<Key> {
         return mMoreKeys;
     }
 
-    public setMoreKeys(MoreKeySpec[] moreKeys) {
+    public void setMoreKeys(MoreKeySpec[] moreKeys) {
         mActionFlags |= ACTION_FLAGS_ENABLE_LONG_PRESS;
         mMoreKeys = moreKeys;
     }
