@@ -1459,6 +1459,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F429</item>
         <item>1F43A</item>
         <item>1F98A</item>
+        <item>1F99D</item>
         <item>1F431</item>
         <item>1F408</item>
         <item>1F981</item>
@@ -1483,9 +1484,11 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F410</item>
         <item>1F42A</item>
         <item>1F42B</item>
+        <item>1F999</item>
         <item>1F992</item>
         <item>1F418</item>
         <item>1F98F</item>
+        <item>1F998</item>
         <item>1F42D</item>
         <item>1F401</item>
         <item>1F400</item>
@@ -1498,6 +1501,8 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F43B</item>
         <item>1F428</item>
         <item>1F43C</item>
+        <item>1F998</item>
+        <item>1F9A1</item>
         <item>1F43E</item>
         <!-- animal-bird -->
         <item>1F983</item>
@@ -1511,7 +1516,10 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F54A</item>
         <item>1F985</item>
         <item>1F986</item>
+        <item>1F9A2</item>
         <item>1F989</item>
+        <item>1F99A</item>
+        <item>1F99C</item>
         <!-- animal-amphibian -->
         <item>1F438</item>
         <!-- animal-reptile -->
@@ -1533,9 +1541,6 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F988</item>
         <item>1F419</item>
         <item>1F41A</item>
-        <item>1F980</item>
-        <item>1F990</item>
-        <item>1F991</item>
         <!-- animal-bug -->
         <item>1F40C</item>
         <item>1F98B</item>
@@ -1547,6 +1552,8 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F577</item>
         <item>1F578</item>
         <item>1F982</item>
+        <item>1F99F</item>
+        <item>1F9A0</item>
         <!-- plant-flower -->
         <item>1F490</item>
         <item>1F338</item>
@@ -1924,6 +1931,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F34B</item>
         <item>1F34C</item>
         <item>1F34D</item>
+        <item>1F96D</item>
         <item>1F34E</item>
         <item>1F34F</item>
         <item>1F350</item>
@@ -1941,6 +1949,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F33D</item>
         <item>1F336</item>
         <item>1F952</item>
+        <item>1F96C</item>
         <item>1F966</item>
         <item>1F344</item>
         <item>1F95C</item>
@@ -1950,6 +1959,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F950</item>
         <item>1F956</item>
         <item>1F968</item>
+        <item>1F96F</item>
         <item>1F95E</item>
         <item>1F9C0</item>
         <item>1F356</item>
@@ -1971,6 +1981,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F963</item>
         <item>1F957</item>
         <item>1F37F</item>
+        <item>1F9C2</item>
         <item>1F96B</item>
         <!-- food-asian -->
         <item>1F371</item>
@@ -1985,10 +1996,16 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F363</item>
         <item>1F364</item>
         <item>1F365</item>
+        <item>1F96E</item>
         <item>1F361</item>
         <item>1F95F</item>
         <item>1F960</item>
         <item>1F961</item>
+        <!-- food-marine -->
+        <item>1F980</item>
+        <item>1F99E</item>
+        <item>1F990</item>
+        <item>1F991</item>
         <!-- food-sweet -->
         <item>1F366</item>
         <item>1F367</item>
@@ -1997,6 +2014,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F36A</item>
         <item>1F382</item>
         <item>1F370</item>
+        <item>1F9C1</item>
         <item>1F967</item>
         <item>1F36B</item>
         <item>1F36C</item>
@@ -2323,6 +2341,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F310</item>
         <item>1F5FA</item>
         <item>1F5FE</item>
+        <item>1F9ED</item>
         <!-- place-geographic -->
         <item>1F3D4</item>
         <item>26F0</item>
@@ -2337,6 +2356,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F3DF</item>
         <item>1F3DB</item>
         <item>1F3D7</item>
+        <item>1F9F1</item>
         <item>1F3D8</item>
         <item>1F3D9</item>
         <item>1F3DA</item>
@@ -2369,6 +2389,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>26FA</item>
         <item>1F301</item>
         <item>1F303</item>
+        <item>1F3D9</item>
         <item>1F304</item>
         <item>1F305</item>
         <item>1F306</item>
@@ -2381,10 +2402,6 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F3A2</item>
         <item>1F488</item>
         <item>1F3AA</item>
-        <item>1F3AD</item>
-        <item>1F5BC</item>
-        <item>1F3A8</item>
-        <item>1F3B0</item>
         <!-- transport-ground -->
         <item>1F682</item>
         <item>1F683</item>
@@ -2414,18 +2431,22 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F69A</item>
         <item>1F69B</item>
         <item>1F69C</item>
+        <item>1F3CE</item>
+        <item>1F3CD</item>
+        <item>1F6F5</item>
         <item>1F6B2</item>
         <item>1F6F4</item>
-        <item>1F6F5</item>
+        <item>1F6F9</item>
         <item>1F68F</item>
         <item>1F6E3</item>
         <item>1F6E4</item>
+        <item>1F6E2</item>
         <item>26FD</item>
         <item>1F6A8</item>
         <item>1F6A5</item>
         <item>1F6A6</item>
-        <item>1F6A7</item>
         <item>1F6D1</item>
+        <item>1F6A7</item>
         <!-- transport-water -->
         <item>2693</item>
         <item>26F5</item>
@@ -2450,12 +2471,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F6F8</item>
         <!-- hotel -->
         <item>1F6CE</item>
-        <item>1F6AA</item>
-        <item>1F6CF</item>
-        <item>1F6CB</item>
-        <item>1F6BD</item>
-        <item>1F6BF</item>
-        <item>1F6C1</item>
+        <item>1F9F3</item>
         <!-- time -->
         <item>231B</item>
         <item>23F3</item>
