@@ -27,7 +27,7 @@
      emoji_eight_objects
      emoji_eight_symbols
      emoji_flags
-     emoji_emoticons
+     emoji_people_modifiers
 -->
 <resources>
     <array
@@ -939,6 +939,21 @@
     >
         <!-- unused -->
     </array>
+    <array
+        name="emoji_emoticons"
+        format="string"
+    >
+        <item>(╯°</item>
+        <item>□°）</item>
+        <item>╯︵ </item>
+        <item>┻━┻</item>
+        <item> ¯\\_</item>
+        <item>(ツ)</item>
+        <item>_/¯</item>
+        <item>┬─┬﻿</item>
+        <item>︵ /(</item>
+        <item>.□.\\</item>
+    </array>
 
     <!-- Reference:
       https://unicode.org/emoji/charts/full-emoji-list.html
@@ -950,7 +965,7 @@
     -->
 
     <array
-        name="emoji_emoticons"
+        name="emoji_people_modifiers"
         format="string"
     >
         <!-- skin tones -->

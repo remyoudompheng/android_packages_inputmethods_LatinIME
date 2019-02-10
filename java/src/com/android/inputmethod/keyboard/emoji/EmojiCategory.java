@@ -60,7 +60,7 @@ final class EmojiCategory {
     private static final int ID_EIGHT_OBJECTS = 13;
     private static final int ID_EIGHT_SYMBOLS = 14;
     private static final int ID_EIGHT_FLAGS = 15;
-    private static final int ID_EIGHT_SMILEY_PEOPLE_BORING = 16;
+    private static final int ID_PEOPLE_MODIFIERS = 16;
 
     public final class CategoryProperties {
         public final int mCategoryId;
@@ -185,6 +185,7 @@ final class EmojiCategory {
                 addShownCategoryId(EmojiCategory.ID_EIGHT_OBJECTS);
                 addShownCategoryId(EmojiCategory.ID_EIGHT_SYMBOLS);
                 addShownCategoryId(EmojiCategory.ID_FLAGS); // Exclude combinations without glyphs.
+                addShownCategoryId(EmojiCategory.ID_PEOPLE_MODIFIERS);
             } else {
                 defaultCategoryId = EmojiCategory.ID_PEOPLE;
                 addShownCategoryId(EmojiCategory.ID_PEOPLE);
@@ -195,11 +196,12 @@ final class EmojiCategory {
                 if (canShowFlagEmoji()) {
                     addShownCategoryId(EmojiCategory.ID_FLAGS);
                 }
+                addShownCategoryId(EmojiCategory.ID_EMOTICONS);
             }
         } else {
             addShownCategoryId(EmojiCategory.ID_SYMBOLS);
+            addShownCategoryId(EmojiCategory.ID_EMOTICONS);
         }
-        addShownCategoryId(EmojiCategory.ID_EMOTICONS);
 
         DynamicGridKeyboard recentsKbd =
                 getKeyboard(EmojiCategory.ID_RECENTS, 0 /* categoryPageId */);
