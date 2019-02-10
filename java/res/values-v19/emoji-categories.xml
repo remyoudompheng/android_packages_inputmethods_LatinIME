@@ -988,8 +988,7 @@
         <!-- roles -->
         <item>2695,FE0F|200D,2695,FE0F</item>
         <item>1F393|200D,1F393</item>
-        <item>1F393|200D,1F393</item>
-        <item>1F3E8|200D,1F3E8</item>
+        <item>1F3EB|200D,1F3EB</item>
         <item>2696,FE0F|200D,2696,FE0F</item>
         <item>1F33E|200D,1F33E</item>
         <item>1F373|200D,1F373</item>
@@ -1276,7 +1275,7 @@
         <item>1F992</item>
         <item>1F418</item>
         <item>1F98F</item>
-        <item>1F998</item>
+        <item>1F99B</item>
         <item>1F42D</item>
         <item>1F401</item>
         <item>1F400</item>
@@ -1361,7 +1360,7 @@
         <item>1F335</item>
         <item>1F33E</item>
         <item>1F33F</item>
-        <item>2618</item>
+        <item>2618,FE0F</item>
         <item>1F340</item>
         <item>1F341</item>
         <item>1F342</item>
@@ -1446,15 +1445,15 @@
         <item>1F615</item>
         <item>1F61F</item>
         <item>1F641</item>
-        <item>2639</item>
+        <item>2639,FE0F</item>
         <item>1F62E</item>
         <item>1F62F</item>
         <item>1F632</item>
         <item>1F633</item>
         <item>1F97A</item>
         <item>1F626</item>
+        <item>1F627</item>
         <item>1F628</item>
-        <item>1F630</item>
         <item>1F630</item>
         <item>1F625</item>
         <item>1F622</item>
@@ -1475,7 +1474,7 @@
         <item>1F608</item>
         <item>1F47F</item>
         <item>1F480</item>
-        <item>2620</item>
+        <item>2620,FE0F</item>
         <!-- face-costume -->
         <item>1F4A9</item>
         <item>1F921</item>
@@ -1511,7 +1510,7 @@
         <item>1F495</item>
         <item>1F49F</item>
         <item>2763</item>
-        <item>1F49F</item>
+        <item>1F494</item>
         <item>2764</item>
         <item>1F9E1</item>
         <item>1F49B</item>
@@ -1691,7 +1690,9 @@
         <item>1F469,200D,1F469,200D,1F466</item>
         <item>1F469,200D,1F469,200D,1F467</item>
         <item>1F468,200D,1F466</item>
+        <item>1F468,200D,1F467</item>
         <item>1F469,200D,1F466</item>
+        <item>1F469,200D,1F467</item>
 
         <!-- person-symbol -->
         <item>1F5E3</item>
@@ -2188,7 +2189,6 @@
         <item>1F3D7</item>
         <item>1F9F1</item>
         <item>1F3D8</item>
-        <item>1F3D9</item>
         <item>1F3DA</item>
         <item>1F3E0</item>
         <item>1F3E1</item>
