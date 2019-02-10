@@ -1027,6 +1027,7 @@ public final class PointerTracker implements PointerTrackerQueue.Element,
         if (key == null) {
             return;
         }
+        Log.i("LatinIME", "long press on " + key.toString());
         if (key.hasNoPanelAutoMoreKey()) {
             cancelKeyTracking();
             final int moreKeyCode = key.getMoreKeys()[0].mCode;

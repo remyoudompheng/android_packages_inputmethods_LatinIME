@@ -471,6 +471,10 @@ public class KeyboardBuilder<KP extends KeyboardParams> {
                 if (moreKeys != null) {
                     key = new Key(key, moreKeys);
                 }
+                if (key.getMoreKeys() != null) {
+                    Log.i("LatinIME", "creating key " + array[i] + " with " + key.getMoreKeys().length + " more keys");
+                }
+
                 endKey(key);
                 row.advanceXPos(keyWidth);
             }
