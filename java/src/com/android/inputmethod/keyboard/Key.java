@@ -433,6 +433,9 @@ public class Key implements Comparable<Key> {
         mMoreKeysColumnAndFlags = key.mMoreKeysColumnAndFlags;
         mBackgroundType = key.mBackgroundType;
         mActionFlags = key.mActionFlags;
+        if (moreKeys != null) {
+            mActionFlags |= ACTION_FLAGS_ENABLE_LONG_PRESS;
+        }
         mKeyVisualAttributes = key.mKeyVisualAttributes;
         mOptionalAttributes = key.mOptionalAttributes;
         mHashCode = key.mHashCode;
