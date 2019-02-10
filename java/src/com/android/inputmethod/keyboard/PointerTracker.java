@@ -1127,7 +1127,9 @@ public final class PointerTracker implements PointerTrackerQueue.Element,
         sTimerProxy.cancelLongPressShiftKeyTimer();
         if (sInGesture) return;
         if (key == null) return;
+        Log.i("LatinIME", "start long press on " + key.toString());
         if (!key.isLongPressEnabled()) return;
+        Log.i("LatinIME", "long press enabled on " + key.toString());
         // Caveat: Please note that isLongPressEnabled() can be true even if the current key
         // doesn't have its more keys. (e.g. spacebar, globe key) If we are in the dragging finger
         // mode, we will disable long press timer of such key.
@@ -1136,6 +1138,7 @@ public final class PointerTracker implements PointerTrackerQueue.Element,
         if (mIsInDraggingFinger && key.getMoreKeys() == null) return;
 
         final int delay = getLongPressTimeout(key.getCode());
+        Log.i("LatinIME", "starting long press with delay " + delay);
         if (delay <= 0) return;
         sTimerProxy.startLongPressTimerOf(this, delay);
     }
