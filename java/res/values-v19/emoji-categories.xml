@@ -16,7 +16,7 @@
 -->
 
 <!-- Note: This emoji code point list is valid on KLP and later (API >= 19).
-There is another emoji code point list for JB-MR2 under res/xml/values and values-v18.-->
+     There is another emoji code point list for JB-MR2 under res/xml/values and values-v18.-->
 
 <!-- The categories used when Unicode 8.0 is supported are:
      emoji_eight_smiley_people
@@ -934,238 +934,10 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>fe4ee|1f1f0,1f1f7|99</item> <!-- TODO: fix support min sdk version (99) -->
     </array>
     <array
-        name="emoji_flags"
+        name="emoji_eight_flags"
         format="string"
     >
-        <item>1f1e6,1f1e9</item>
-        <item>1f1e6,1f1ea</item>
-        <item>1f1e6,1f1eb</item>
-        <item>1f1e6,1f1ec</item>
-        <item>1f1e6,1f1ee</item>
-        <item>1f1e6,1f1f1</item>
-        <item>1f1e6,1f1f2</item>
-        <item>1f1e6,1f1f4</item>
-        <item>1f1e6,1f1f7</item>
-        <item>1f1e6,1f1f8</item>
-        <item>1f1e6,1f1f9</item>
-        <item>1f1e6,1f1fa</item>
-        <item>1f1e6,1f1fc</item>
-        <item>1f1e6,1f1fd</item>
-        <item>1f1e6,1f1ff</item>
-        <item>1f1e7,1f1e6</item>
-        <item>1f1e7,1f1e7</item>
-        <item>1f1e7,1f1e9</item>
-        <item>1f1e7,1f1ea</item>
-        <item>1f1e7,1f1eb</item>
-        <item>1f1e7,1f1ec</item>
-        <item>1f1e7,1f1ed</item>
-        <item>1f1e7,1f1ee</item>
-        <item>1f1e7,1f1ef</item>
-        <item>1f1e7,1f1f2</item>
-        <item>1f1e7,1f1f3</item>
-        <item>1f1e7,1f1f4</item>
-        <item>1f1e7,1f1f7</item>
-        <item>1f1e7,1f1f8</item>
-        <item>1f1e7,1f1f9</item>
-        <item>1f1e7,1f1fc</item>
-        <item>1f1e7,1f1fe</item>
-        <item>1f1e7,1f1ff</item>
-        <item>1f1e8,1f1e6</item>
-        <item>1f1e8,1f1e8</item>
-        <item>1f1e8,1f1e9</item>
-        <item>1f1e8,1f1eb</item>
-        <item>1f1e8,1f1ec</item>
-        <item>1f1e8,1f1ed</item>
-        <item>1f1e8,1f1ee</item>
-        <item>1f1e8,1f1f0</item>
-        <item>1f1e8,1f1f1</item>
-        <item>1f1e8,1f1f2</item>
-        <item>1f1e8,1f1f3</item>
-        <item>1f1e8,1f1f4</item>
-        <item>1f1e8,1f1f7</item>
-        <item>1f1e8,1f1fa</item>
-        <item>1f1e8,1f1fb</item>
-        <item>1f1e8,1f1fc</item>
-        <item>1f1e8,1f1fd</item>
-        <item>1f1e8,1f1fe</item>
-        <item>1f1e8,1f1ff</item>
-        <item>1f1e9,1f1ea</item>
-        <item>1f1e9,1f1ef</item>
-        <item>1f1e9,1f1f0</item>
-        <item>1f1e9,1f1f2</item>
-        <item>1f1e9,1f1f4</item>
-        <item>1f1e9,1f1ff</item>
-        <item>1f1ea,1f1e8</item>
-        <item>1f1ea,1f1ea</item>
-        <item>1f1ea,1f1ec</item>
-        <item>1f1ea,1f1f7</item>
-        <item>1f1ea,1f1f8</item>
-        <item>1f1ea,1f1f9</item>
-        <item>1f1ea,1f1fa</item>
-        <item>1f1eb,1f1ee</item>
-        <item>1f1eb,1f1ef</item>
-        <item>1f1eb,1f1f2</item>
-        <item>1f1eb,1f1f4</item>
-        <item>1f1eb,1f1f7</item>
-        <item>1f1ec,1f1e6</item>
-        <item>1f1ec,1f1e7</item>
-        <item>1f1ec,1f1e9</item>
-        <item>1f1ec,1f1ea</item>
-        <item>1f1ec,1f1ec</item>
-        <item>1f1ec,1f1ed</item>
-        <item>1f1ec,1f1ee</item>
-        <item>1f1ec,1f1f1</item>
-        <item>1f1ec,1f1f2</item>
-        <item>1f1ec,1f1f3</item>
-        <item>1f1ec,1f1f6</item>
-        <item>1f1ec,1f1f7</item>
-        <item>1f1ec,1f1f9</item>
-        <item>1f1ec,1f1fa</item>
-        <item>1f1ec,1f1fc</item>
-        <item>1f1ec,1f1fe</item>
-        <item>1f1ed,1f1f0</item>
-        <item>1f1ed,1f1f3</item>
-        <item>1f1ed,1f1f7</item>
-        <item>1f1ed,1f1f9</item>
-        <item>1f1ed,1f1fa</item>
-        <item>1f1ee,1f1e9</item>
-        <item>1f1ee,1f1ea</item>
-        <item>1f1ee,1f1f1</item>
-        <item>1f1ee,1f1f2</item>
-        <item>1f1ee,1f1f3</item>
-        <item>1f1ee,1f1f4</item>
-        <item>1f1ee,1f1f6</item>
-        <item>1f1ee,1f1f7</item>
-        <item>1f1ee,1f1f8</item>
-        <item>1f1ee,1f1f9</item>
-        <item>1f1ef,1f1ea</item>
-        <item>1f1ef,1f1f2</item>
-        <item>1f1ef,1f1f4</item>
-        <item>1f1ef,1f1f5</item>
-        <item>1f1f0,1f1ea</item>
-        <item>1f1f0,1f1ec</item>
-        <item>1f1f0,1f1ed</item>
-        <item>1f1f0,1f1ee</item>
-        <item>1f1f0,1f1f2</item>
-        <item>1f1f0,1f1f3</item>
-        <item>1f1f0,1f1f5</item>
-        <item>1f1f0,1f1f7</item>
-        <item>1f1f0,1f1fc</item>
-        <item>1f1f0,1f1fe</item>
-        <item>1f1f0,1f1ff</item>
-        <item>1f1f1,1f1e6</item>
-        <item>1f1f1,1f1e7</item>
-        <item>1f1f1,1f1e8</item>
-        <item>1f1f1,1f1ee</item>
-        <item>1f1f1,1f1f0</item>
-        <item>1f1f1,1f1f7</item>
-        <item>1f1f1,1f1f8</item>
-        <item>1f1f1,1f1f9</item>
-        <item>1f1f1,1f1fa</item>
-        <item>1f1f1,1f1fb</item>
-        <item>1f1f1,1f1fe</item>
-        <item>1f1f2,1f1e6</item>
-        <item>1f1f2,1f1e8</item>
-        <item>1f1f2,1f1e9</item>
-        <item>1f1f2,1f1ea</item>
-        <item>1f1f2,1f1ec</item>
-        <item>1f1f2,1f1ed</item>
-        <item>1f1f2,1f1f0</item>
-        <item>1f1f2,1f1f1</item>
-        <item>1f1f2,1f1f2</item>
-        <item>1f1f2,1f1f3</item>
-        <item>1f1f2,1f1f4</item>
-        <item>1f1f2,1f1f5</item>
-        <item>1f1f2,1f1f7</item>
-        <item>1f1f2,1f1f8</item>
-        <item>1f1f2,1f1f9</item>
-        <item>1f1f2,1f1fa</item>
-        <item>1f1f2,1f1fb</item>
-        <item>1f1f2,1f1fc</item>
-        <item>1f1f2,1f1fd</item>
-        <item>1f1f2,1f1fe</item>
-        <item>1f1f2,1f1ff</item>
-        <item>1f1f3,1f1e6</item>
-        <item>1f1f3,1f1ea</item>
-        <item>1f1f3,1f1eb</item>
-        <item>1f1f3,1f1ec</item>
-        <item>1f1f3,1f1ee</item>
-        <item>1f1f3,1f1f1</item>
-        <item>1f1f3,1f1f4</item>
-        <item>1f1f3,1f1f5</item>
-        <item>1f1f3,1f1f7</item>
-        <item>1f1f3,1f1fa</item>
-        <item>1f1f3,1f1ff</item>
-        <item>1f1f4,1f1f2</item>
-        <item>1f1f5,1f1e6</item>
-        <item>1f1f5,1f1ea</item>
-        <item>1f1f5,1f1eb</item>
-        <item>1f1f5,1f1ec</item>
-        <item>1f1f5,1f1ed</item>
-        <item>1f1f5,1f1f0</item>
-        <item>1f1f5,1f1f1</item>
-        <item>1f1f5,1f1f3</item>
-        <item>1f1f5,1f1f7</item>
-        <item>1f1f5,1f1f8</item>
-        <item>1f1f5,1f1f9</item>
-        <item>1f1f5,1f1fc</item>
-        <item>1f1f5,1f1fe</item>
-        <item>1f1f6,1f1e6</item>
-        <item>1f1f7,1f1f4</item>
-        <item>1f1f7,1f1f8</item>
-        <item>1f1f7,1f1fa</item>
-        <item>1f1f7,1f1fc</item>
-        <item>1f1f8,1f1e6</item>
-        <item>1f1f8,1f1e7</item>
-        <item>1f1f8,1f1e8</item>
-        <item>1f1f8,1f1e9</item>
-        <item>1f1f8,1f1ea</item>
-        <item>1f1f8,1f1ec</item>
-        <item>1f1f8,1f1ee</item>
-        <item>1f1f8,1f1f0</item>
-        <item>1f1f8,1f1f1</item>
-        <item>1f1f8,1f1f2</item>
-        <item>1f1f8,1f1f3</item>
-        <item>1f1f8,1f1f4</item>
-        <item>1f1f8,1f1f7</item>
-        <item>1f1f8,1f1f8</item>
-        <item>1f1f8,1f1f9</item>
-        <item>1f1f8,1f1fb</item>
-        <item>1f1f8,1f1fd</item>
-        <item>1f1f8,1f1fe</item>
-        <item>1f1f8,1f1ff</item>
-        <item>1f1f9,1f1e8</item>
-        <item>1f1f9,1f1e9</item>
-        <item>1f1f9,1f1ec</item>
-        <item>1f1f9,1f1ed</item>
-        <item>1f1f9,1f1ef</item>
-        <item>1f1f9,1f1f0</item>
-        <item>1f1f9,1f1f1</item>
-        <item>1f1f9,1f1f2</item>
-        <item>1f1f9,1f1f3</item>
-        <item>1f1f9,1f1f4</item>
-        <item>1f1f9,1f1f7</item>
-        <item>1f1f9,1f1f9</item>
-        <item>1f1f9,1f1fb</item>
-        <item>1f1f9,1f1fc</item>
-        <item>1f1f9,1f1ff</item>
-        <item>1f1fa,1f1e6</item>
-        <item>1f1fa,1f1ec</item>
-        <item>1f1fa,1f1f8</item>
-        <item>1f1fa,1f1fe</item>
-        <item>1f1fa,1f1ff</item>
-        <item>1f1fb,1f1e6</item>
-        <item>1f1fb,1f1e8</item>
-        <item>1f1fb,1f1ea</item>
-        <item>1f1fb,1f1ec</item>
-        <item>1f1fb,1f1ee</item>
-        <item>1f1fb,1f1f3</item>
-        <item>1f1fb,1f1fa</item>
-        <item>1f1fc,1f1f8</item>
-        <item>1f1fe,1f1ea</item>
-        <item>1f1ff,1f1e6</item>
-        <item>1f1ff,1f1f2</item>
-        <item>1f1ff,1f1fc</item>
+        <!-- unused -->
     </array>
 
     <!-- Reference:
@@ -1332,10 +1104,12 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F4F6</item>
         <item>1F4F3</item>
         <item>1F4F4</item>
-        <!-- other-symbol -->
+        <!-- gender -->
         <item>2640</item>
         <item>2642</item>
+        <!-- other-symbol -->
         <item>2695</item>
+        <item>267E</item>
         <item>267B</item>
         <item>269C</item>
         <item>1F531</item>
@@ -1382,7 +1156,6 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>0039,FE0F,20E3</item>
         <item>1F51F</item>
         <!-- alphanum -->
-        <item>1F4AF</item>
         <item>1F520</item>
         <item>1F521</item>
         <item>1F522</item>
@@ -1423,14 +1196,18 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F23A</item>
         <item>1F235</item>
         <!-- geometric -->
-        <item>25AA</item>
-        <item>25AB</item>
+        <item>1F534</item>
+        <item>1F535</item>
+        <item>26AA</item>
+        <item>26AB</item>
+        <item>2B1C</item>
+        <item>2B1B</item>
         <item>25FB</item>
         <item>25FC</item>
         <item>25FD</item>
         <item>25FE</item>
-        <item>2B1B</item>
-        <item>2B1C</item>
+        <item>25AB</item>
+        <item>25AA</item>
         <item>1F536</item>
         <item>1F537</item>
         <item>1F538</item>
@@ -1441,10 +1218,6 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F518</item>
         <item>1F532</item>
         <item>1F533</item>
-        <item>26AA</item>
-        <item>26AB</item>
-        <item>1F534</item>
-        <item>1F535</item>
     </array>
     <array
         name="emoji_eight_animals_nature"
@@ -1741,7 +1514,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F573</item>
         <item>1F4A3</item>
         <item>1F4AC</item>
-        <item>1F441,FE0F,200D,1F5E8,FR0F</item>
+        <item>1F441,FE0F,200D,1F5E8,FE0F</item>
         <item>1F5E8</item>
         <item>1F5EF</item>
         <item>1F4AD</item>
@@ -2051,6 +1824,8 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <!-- clothing -->
         <item>1F453</item>
         <item>1F576</item>
+        <item>1F97D</item>
+        <item>1F97C</item>
         <item>1F454</item>
         <item>1F455</item>
         <item>1F456</item>
@@ -2069,6 +1844,8 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F392</item>
         <item>1F45E</item>
         <item>1F45F</item>
+        <item>1F97E</item>
+        <item>1F97F</item>
         <item>1F460</item>
         <item>1F461</item>
         <item>1F462</item>
@@ -2130,6 +1907,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F4BE</item>
         <item>1F4BF</item>
         <item>1F4C0</item>
+        <item>1F9EE</item>
         <!-- light & video -->
         <item>1F3A5</item>
         <item>1F39E</item>
@@ -2142,9 +1920,6 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F4FC</item>
         <item>1F50D</item>
         <item>1F50E</item>
-        <item>1F52C</item>
-        <item>1F52D</item>
-        <item>1F4E1</item>
         <item>1F56F</item>
         <item>1F4A1</item>
         <item>1F526</item>
@@ -2175,6 +1950,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F4B7</item>
         <item>1F4B8</item>
         <item>1F4B3</item>
+        <item>1F9FE</item>
         <item>1F4B9</item>
         <item>1F4B1</item>
         <item>1F4B2</item>
@@ -2245,21 +2021,43 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F529</item>
         <item>2699</item>
         <item>1F5DC</item>
-        <item>2697</item>
         <item>2696</item>
         <item>1F517</item>
         <item>26D3</item>
+        <item>1F9F0</item>
+        <item>1F9F2</item>
+        <!-- science -->
+        <item>2697</item>
+        <item>1F9EA</item>
+        <item>1F9EB</item>
+        <item>1F9EC</item>
+        <item>1F52C</item>
+        <item>1F52D</item>
+        <item>1F4E1</item>
         <!-- medical -->
         <item>1F489</item>
         <item>1F48A</item>
+        <!-- household -->
+        <item>1F6AA</item>
+        <item>1F6CF</item>
+        <item>1F6CB</item>
+        <item>1F6BD</item>
+        <item>1F6BF</item>
+        <item>1F6C1</item>
+        <item>1F9F4</item>
+        <item>1F9F7</item>
+        <item>1F9F9</item>
+        <item>1F9FA</item>
+        <item>1F9FB</item>
+        <item>1F9FC</item>
+        <item>1F9FD</item>
+        <item>1F9EF</item>
+        <item>1F6D2</item>
         <!-- other-object -->
         <item>1F6AC</item>
         <item>26B0</item>
         <item>26B1</item>
         <item>1F5FF</item>
-        <item>1F6E2</item>
-        <item>1F52E</item>
-        <item>1F6D2</item>
     </array>
     <array
         name="emoji_eight_activity"
@@ -2270,6 +2068,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F384</item>
         <item>1F386</item>
         <item>1F387</item>
+        <item>1F9E8</item>
         <item>2728</item>
         <item>1F388</item>
         <item>1F389</item>
@@ -2280,6 +2079,7 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F38F</item>
         <item>1F390</item>
         <item>1F391</item>
+        <item>1F9E7</item>
         <item>1F380</item>
         <item>1F381</item>
         <item>1F397</item>
@@ -2295,22 +2095,23 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <!-- sport -->
         <item>26BD</item>
         <item>26BE</item>
+        <item>1F94E</item>
         <item>1F3C0</item>
         <item>1F3D0</item>
         <item>1F3C8</item>
         <item>1F3C9</item>
         <item>1F3BE</item>
-        <item>1F3B1</item>
+        <item>1F94F</item>
         <item>1F3B3</item>
         <item>1F3CF</item>
         <item>1F3D1</item>
         <item>1F3D2</item>
+        <item>1F94D</item>
         <item>1F3D3</item>
         <item>1F3F8</item>
         <item>1F94A</item>
         <item>1F94B</item>
         <item>1F945</item>
-        <item>1F3AF</item>
         <item>26F3</item>
         <item>26F8</item>
         <item>1F3A3</item>
@@ -2319,16 +2120,30 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F6F7</item>
         <item>1F94C</item>
         <!-- game -->
+        <item>1F3AF</item>
+        <item>1F3B1</item>
+        <item>1F52E</item>
+        <item>1F9FF</item>
         <item>1F3AE</item>
         <item>1F579</item>
+        <item>1F3B0</item>
         <item>1F3B2</item>
+        <item>1F9E9</item>
+        <item>1F9F8</item>
         <item>2660</item>
         <item>2665</item>
         <item>2666</item>
         <item>2663</item>
+        <item>265F</item>
         <item>1F0CF</item>
         <item>1F004</item>
         <item>1F3B4</item>
+        <!-- arts-crafts -->
+        <item>1F3AD</item>
+        <item>1F5BC</item>
+        <item>1F3A8</item>
+        <item>1F9F5</item>
+        <item>1F9F6</item>
     </array>
     <array
         name="emoji_eight_travel_places"
@@ -2552,15 +2367,17 @@ There is another emoji code point list for JB-MR2 under res/xml/values and value
         <item>1F30A</item>
     </array>
     <array
-        name="emoji_eight_flags"
+        name="emoji_flags"
         format="string"
     >
+        <!-- flag -->
         <item>1F3C1</item>
         <item>1F6A9</item>
         <item>1F38C</item>
         <item>1F3F4</item>
         <item>1F3F3</item>
         <item>1F3F3,FE0F,200D,1F308</item>
+        <item>1F3F4,200D,2620,FE0F</item>
         <!-- country-flag -->
         <item>1F1E6,1F1E8</item>
         <item>1F1E6,1F1E9</item>
