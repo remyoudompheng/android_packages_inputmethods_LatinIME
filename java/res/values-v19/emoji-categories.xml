@@ -1076,6 +1076,7 @@
         <item>271D</item>
         <item>2626</item>
         <item>262A</item>
+        <item>262D</item>
         <item>262E</item>
         <item>1F54E</item>
         <item>1F52F</item>
@@ -1121,6 +1122,11 @@
         <!-- gender -->
         <item>2640</item>
         <item>2642</item>
+        <item>26A2</item>
+        <item>26A3</item>
+        <item>26A4</item>
+        <item>26A5</item>
+        <item>26A7</item>
         <!-- other-symbol -->
         <item>2695</item>
         <item>267E</item>
