@@ -1225,9 +1225,21 @@
         <item>1F235</item>
         <!-- geometric -->
         <item>1F534</item>
+        <item>1F7E0</item><!-- 12.0 orange circle -->
+        <item>1F7E1</item><!-- 12.0 yellow circle -->
+        <item>1F7E2</item><!-- 12.0 green circle -->
         <item>1F535</item>
+        <item>1F7E3</item><!-- 12.0 purple circle -->
+        <item>1F7E4</item><!-- 12.0 brown circle -->
+        <item>26AB</item><!-- 4.1 black circle -->
         <item>26AA</item>
-        <item>26AB</item>
+        <item>1F7E5</item><!-- 12.0 red square -->
+        <item>1F7E7</item><!-- 12.0 orange square -->
+        <item>1F7E8</item><!-- 12.0 yellow square -->
+        <item>1F7E9</item><!-- 12.0 green square -->
+        <item>1F7E6</item><!-- 12.0 blue square -->
+        <item>1F7EA</item><!-- 12.0 purple square -->
+        <item>1F7EB</item><!-- 12.0 brown square -->
         <item>2B1C</item>
         <item>2B1B</item>
         <item>25FB</item>
@@ -1539,8 +1551,8 @@
         <item>1F499</item>
         <item>1F49C</item>
         <item>1F90E</item> <!-- 12.0 brown heart -->
-        <item>1F5A4</item>
-        <item>1F90D</item> <!-- 12.0 black heart -->
+        <item>1F5A4</item> <!-- black heart -->
+        <item>1F90D</item> <!-- 12.0 white heart -->
         <item>1F4AF</item>
         <item>1F4A2</item>
         <item>1F4A5</item>
@@ -1750,7 +1762,7 @@
         <item>1F34B</item>
         <item>1F34C</item>
         <item>1F34D</item>
-        <item>1F96D</item>
+        <item>1F96D</item><!-- 11.0 mango -->
         <item>1F34E</item>
         <item>1F34F</item>
         <item>1F350</item>
@@ -1768,8 +1780,10 @@
         <item>1F33D</item>
         <item>1F336</item>
         <item>1F952</item>
-        <item>1F96C</item>
+        <item>1F96C</item><!-- 11.0 leafy green -->
         <item>1F966</item>
+        <item>1F9C4</item><!-- 12.0 garlic -->
+        <item>1F9C5</item><!-- 12.0 onion -->
         <item>1F344</item>
         <item>1F95C</item>
         <item>1F330</item>
@@ -1780,6 +1794,7 @@
         <item>1F968</item>
         <item>1F96F</item>
         <item>1F95E</item>
+        <item>1F9C7</item><!-- 12.0 waffle -->
         <item>1F9C0</item>
         <item>1F356</item>
         <item>1F357</item>
@@ -1793,6 +1808,7 @@
         <item>1F32E</item>
         <item>1F32F</item>
         <item>1F959</item>
+        <item>1F9C6</item><!-- 12.0 falafel -->
         <item>1F95A</item>
         <item>1F373</item>
         <item>1F958</item>
@@ -1800,7 +1816,8 @@
         <item>1F963</item>
         <item>1F957</item>
         <item>1F37F</item>
-        <item>1F9C2</item>
+        <item>1F9C8</item><!-- 12.0 butter -->
+        <item>1F9C2</item><!-- 11.0 salt -->
         <item>1F96B</item>
         <!-- food-asian -->
         <item>1F371</item>
@@ -1825,6 +1842,7 @@
         <item>1F99E</item>
         <item>1F990</item>
         <item>1F991</item>
+        <item>1F9AA</item><!-- 12.0 oyster -->
         <!-- food-sweet -->
         <item>1F366</item>
         <item>1F367</item>
@@ -1855,6 +1873,9 @@
         <item>1F942</item>
         <item>1F943</item>
         <item>1F964</item>
+        <item>1F9C3</item><!-- 12.0 beverage box -->
+        <item>1F9C9</item><!-- 12.0 mate -->
+        <item>1F9CA</item><!-- 12.0 ice cube -->
         <!-- dishware -->
         <item>1F962</item>
         <item>1F37D</item>
@@ -1870,8 +1891,9 @@
         <!-- clothing -->
         <item>1F453</item>
         <item>1F576</item>
-        <item>1F97D</item>
-        <item>1F97C</item>
+        <item>1F97D</item><!-- 11.0 goggles -->
+        <item>1F97C</item><!-- 11.0 lab coat -->
+        <item>1F9BA</item><!-- 12.0 safety vest -->
         <item>1F454</item>
         <item>1F455</item>
         <item>1F456</item>
@@ -1881,6 +1903,10 @@
         <item>1F9E6</item>
         <item>1F457</item>
         <item>1F458</item>
+        <item>1F97B</item><!-- 12.0 sari -->
+        <item>1FA71</item><!-- 12.0 one-piece swimsuit -->
+        <item>1FA72</item><!-- 12.0 briefs -->
+        <item>1FA73</item><!-- 12.0 shorts -->
         <item>1F459</item>
         <item>1F45A</item>
         <item>1F45B</item>
@@ -1894,6 +1920,7 @@
         <item>1F97F</item>
         <item>1F460</item>
         <item>1F461</item>
+        <item>1FA70</item><!-- 12.0 ballet shoes -->
         <item>1F462</item>
         <item>1F451</item>
         <item>1F452</item>
@@ -1932,6 +1959,7 @@
         <item>1F3B9</item>
         <item>1F3BA</item>
         <item>1F3BB</item>
+        <item>1FA95</item><!-- 12.0 banjo -->
         <item>1F941</item>
         <!-- phone -->
         <item>1F4F1</item>
@@ -1970,6 +1998,7 @@
         <item>1F4A1</item>
         <item>1F526</item>
         <item>1F3EE</item>
+        <item>1FA94</item><!-- 12.0 diya lamp -->
         <!-- book-paper -->
         <item>1F4D4</item>
         <item>1F4D5</item>
@@ -2055,6 +2084,7 @@
         <item>1F5DD</item>
         <!-- tool -->
         <item>1F528</item>
+        <item>1FA93</item><!-- 12.0 axe -->
         <item>26CF</item>
         <item>2692</item>
         <item>1F6E0</item>
@@ -2068,6 +2098,7 @@
         <item>2699</item>
         <item>1F5DC</item>
         <item>2696</item>
+        <item>1F9AF</item><!-- 12.0 probing cane -->
         <item>1F517</item>
         <item>26D3</item>
         <item>1F9F0</item>
@@ -2082,14 +2113,19 @@
         <item>1F4E1</item>
         <!-- medical -->
         <item>1F489</item>
+        <item>1FA78</item><!-- 12.0 drop of blood -->
         <item>1F48A</item>
+        <item>1FA79</item><!-- 12.0 adhesive bandage -->
+        <item>1FA7A</item><!-- 12.0 stethoscope -->
         <!-- household -->
         <item>1F6AA</item>
         <item>1F6CF</item>
         <item>1F6CB</item>
+        <item>1FA91</item><!-- 12.0 chair -->
         <item>1F6BD</item>
         <item>1F6BF</item>
         <item>1F6C1</item>
+        <item>1FA92</item><!-- 12.0 razor -->
         <item>1F9F4</item>
         <item>1F9F7</item>
         <item>1F9F9</item>
@@ -2161,12 +2197,15 @@
         <item>26F3</item>
         <item>26F8</item>
         <item>1F3A3</item>
+        <item>1F93F</item><!-- 12.0 diving mask -->
         <item>1F3BD</item>
         <item>1F3BF</item>
         <item>1F6F7</item>
         <item>1F94C</item>
         <!-- game -->
         <item>1F3AF</item>
+        <item>1FA80</item><!-- 12.0 yo-yo -->
+        <item>1FA81</item><!-- 12.0 kite -->
         <item>1F3B1</item>
         <item>1F52E</item>
         <item>1F9FF</item>
@@ -2202,7 +2241,7 @@
         <item>1F310</item>
         <item>1F5FA</item>
         <item>1F5FE</item>
-        <item>1F9ED</item>
+        <item>1F9ED</item><!-- 11.0 compass -->
         <!-- place-geographic -->
         <item>1F3D4</item>
         <item>26F0</item>
@@ -2217,7 +2256,7 @@
         <item>1F3DF</item>
         <item>1F3DB</item>
         <item>1F3D7</item>
-        <item>1F9F1</item>
+        <item>1F9F1</item><!-- 11.0 brick -->
         <item>1F3D8</item>
         <item>1F3DA</item>
         <item>1F3E0</item>
@@ -2241,6 +2280,7 @@
         <!-- place-religious -->
         <item>26EA</item>
         <item>1F54C</item>
+        <item>1F6D5</item><!-- 12.0 hindu temple -->
         <item>1F54D</item>
         <item>26E9</item>
         <item>1F54B</item>
@@ -2294,6 +2334,9 @@
         <item>1F3CE</item>
         <item>1F3CD</item>
         <item>1F6F5</item>
+        <item>1F9BD</item><!-- 12.0 manual wheelchair -->
+        <item>1F9BC</item><!-- 12.0 motorized wheelchair -->
+        <item>1F6FA</item><!-- 12.0 auto rickshaw -->
         <item>1F6B2</item>
         <item>1F6F4</item>
         <item>1F6F9</item>
@@ -2321,6 +2364,7 @@
         <item>1F6E9</item>
         <item>1F6EB</item>
         <item>1F6EC</item>
+        <item>1FA82</item><!-- 12.0 parachute -->
         <item>1F4BA</item>
         <item>1F681</item>
         <item>1F69F</item>
@@ -2381,6 +2425,7 @@
         <item>2600</item>
         <item>1F31D</item>
         <item>1F31E</item>
+        <item>1FA90</item><!-- 12.0 ringed planet -->
         <item>2B50</item>
         <item>1F31F</item>
         <item>1F320</item>
