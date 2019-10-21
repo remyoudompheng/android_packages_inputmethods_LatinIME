@@ -15,6 +15,8 @@
      limitations under the License.
 -->
 
+<!-- Reference: https://unicode.org/Public/emoji/12.0/emoji-test.txt -->
+
 <!-- Note: This emoji code point list is valid on KLP and later (API >= 19).
      There is another emoji code point list for JB-MR2 under res/xml/values and values-v18.-->
 
@@ -975,35 +977,41 @@
         <item>1F3FE</item>
         <item>1F3FF</item>
         <!-- hair style -->
-        <item>1F9B0</item>
-        <item>1F9B1</item>
-        <item>1F9B3</item>
-        <item>1F9B2</item>
+        <item>1F9B0</item><!-- 11.0 red hair -->
+        <item>1F9B1</item><!-- 11.0 curly hair -->
+        <item>1F9B3</item><!-- 11.0 white hair -->
+        <item>1F9B2</item><!-- 11.0 bald -->
 
         <!-- gender = ZWJ + male/female symbol -->
-        <!-- SYNTAX role + gender -->
+        <!-- gender suffixes -->
         <item>1F468|200D,2642,FE0F</item>
         <item>1F469|200D,2640,FE0F</item>
 
-        <!-- roles -->
-        <item>2695,FE0F|200D,2695,FE0F</item>
-        <item>1F393|200D,1F393</item>
-        <item>1F3EB|200D,1F3EB</item>
-        <item>2696,FE0F|200D,2696,FE0F</item>
-        <item>1F33E|200D,1F33E</item>
-        <item>1F373|200D,1F373</item>
-        <item>1F527|200D,1F527</item>
-        <item>1F3ED|200D,1F3ED</item>
-        <item>1F4BC|200D,1F4BC</item>
-        <item>1F52C|200D,1F52C</item>
-        <item>1F4BB|200D,1F4BB</item>
-        <item>1F3A4|200D,1F3A4</item>
-        <item>1F3A8|200D,1F3A8</item>
-        <item>2708,FE0F|200D,2708,FE0F</item>
-        <item>1F680|200D,1F680</item>
-        <item>1F692|200D,1F692</item>
+        <!-- role suffixes -->
+        <item>2695,FE0F|200D,2695,FE0F</item><!-- health worker -->
+        <item>1F393|200D,1F393</item><!-- student -->
+        <item>1F3EB|200D,1F3EB</item><!-- teacher -->
+        <item>2696,FE0F|200D,2696,FE0F</item><!-- judge -->
+        <item>1F33E|200D,1F33E</item><!-- farmer -->
+        <item>1F373|200D,1F373</item><!-- cook -->
+        <item>1F527|200D,1F527</item><!-- mechanic -->
+        <item>1F3ED|200D,1F3ED</item><!-- factory worker -->
+        <item>1F4BC|200D,1F4BC</item><!-- office worker -->
+        <item>1F52C|200D,1F52C</item><!-- scientist -->
+        <item>1F4BB|200D,1F4BB</item><!-- technologist -->
+        <item>1F3A4|200D,1F3A4</item><!-- singer -->
+        <item>1F3A8|200D,1F3A8</item><!-- artist -->
+        <item>2708,FE0F|200D,2708,FE0F</item><!-- pilot -->
+        <item>1F680|200D,1F680</item><!-- astronaut -->
+        <item>1F692|200D,1F692</item><!-- firefighter -->
+
+        <!-- activity suffixes -->
+        <item>1F9AF|200D,1F9AF</item><!-- 12.0 with probing cane -->
+        <item>1F9BC|200D,1F9BC</item><!-- 12.0 in motorized wheelchair -->
+        <item>1F9BD|200D,1F9BD</item><!-- 12.0 in manual wheelchair -->
 
         <!-- relations (SYNTAX person + link + person) -->
+        <item>1F91D|200D,1F91D,200D</item><!-- 10.0 holding hands -->
         <!-- kiss = red heart+kiss mark -->
         <item>1F48F|200D,2764,FE0F,200D,1F48B,200D</item>
         <!-- couple = red heart -->
@@ -1247,8 +1255,11 @@
         <item>1F435</item>
         <item>1F412</item>
         <item>1F98D</item>
+        <item>1F9A7</item><!-- 12.0 orangutan -->
         <item>1F436</item>
         <item>1F415</item>
+        <item>1F9AE</item><!-- 12.0 guide dog -->
+        <item>1F415,200D,1F9BA</item><!-- 12.0 service dog -->
         <item>1F429</item>
         <item>1F43A</item>
         <item>1F98A</item>
@@ -1262,7 +1273,7 @@
         <item>1F434</item>
         <item>1F40E</item>
         <item>1F984</item>
-        <item>1F993</item>
+        <item>1F993</item><!-- 10.0 zebra -->
         <item>1F98C</item>
         <item>1F42E</item>
         <item>1F402</item>
@@ -1277,11 +1288,11 @@
         <item>1F410</item>
         <item>1F42A</item>
         <item>1F42B</item>
-        <item>1F999</item>
+        <item>1F999</item><!-- 11.0 llama -->
         <item>1F992</item>
         <item>1F418</item>
         <item>1F98F</item>
-        <item>1F99B</item>
+        <item>1F99B</item><!-- 11.0 hippopotamus -->
         <item>1F42D</item>
         <item>1F401</item>
         <item>1F400</item>
@@ -1294,6 +1305,9 @@
         <item>1F43B</item>
         <item>1F428</item>
         <item>1F43C</item>
+        <item>1F9A5</item><!-- 12.0 sloth -->
+        <item>1F9A6</item><!-- 12.0 otter -->
+        <item>1F9A8</item><!-- 12.0 skunk -->
         <item>1F998</item>
         <item>1F9A1</item>
         <item>1F43E</item>
@@ -1309,10 +1323,11 @@
         <item>1F54A</item>
         <item>1F985</item>
         <item>1F986</item>
-        <item>1F9A2</item>
+        <item>1F9A2</item><!-- 11.0 swan -->
         <item>1F989</item>
-        <item>1F99A</item>
-        <item>1F99C</item>
+        <item>1F9A9</item><!-- 12.0 flamingo -->
+        <item>1F99A</item><!-- 11.0 peacock -->
+        <item>1F99C</item><!-- 11.0 parrot -->
         <!-- animal-amphibian -->
         <item>1F438</item>
         <!-- animal-reptile -->
@@ -1468,10 +1483,10 @@
         <item>1F616</item>
         <item>1F623</item>
         <item>1F61E</item>
-
         <item>1F613</item>
         <item>1F629</item>
         <item>1F62B</item>
+        <item>1F971</item> <!-- 12.0 yawning face -->
         <!-- face-negative -->
         <item>1F624</item>
         <item>1F621</item>
@@ -1523,9 +1538,10 @@
         <item>1F49A</item>
         <item>1F499</item>
         <item>1F49C</item>
+        <item>1F90E</item> <!-- 12.0 brown heart -->
         <item>1F5A4</item>
+        <item>1F90D</item> <!-- 12.0 black heart -->
         <item>1F4AF</item>
-
         <item>1F4A2</item>
         <item>1F4A5</item>
         <item>1F4AB</item>
@@ -1539,7 +1555,7 @@
         <item>1F5EF</item>
         <item>1F4AD</item>
         <item>1F4A4</item>
-
+        <!-- group: people & body -->
         <!-- hand-fingers-open -->
         <item>1F44B</item>
         <item>1F91A</item>
@@ -1548,6 +1564,7 @@
         <item>1F596</item>
         <!-- hand-fingers-partial -->
         <item>1F44C</item>
+        <item>1F90F</item> <!-- 12.0 pinching hand -->
         <item>270C</item>
         <item>1F91E</item>
         <item>1F91F</item>
@@ -1560,7 +1577,7 @@
         <item>1F595</item>
         <item>1F447</item>
         <item>261D</item>
-        <!-- hand-single-closed -->
+        <!-- hand-fingers-closed -->
         <item>1F44D</item>
         <item>1F44E</item>
         <item>270A</item>
@@ -1580,9 +1597,12 @@
         <item>1F933</item>
         <!-- body-parts -->
         <item>1F4AA</item>
+        <item>1F9BE</item><!-- 12.0 mechanical arm -->
+        <item>1F9BF</item><!-- 12.0 mechanical leg -->
         <item>1F9B5</item>
         <item>1F9B6</item>
         <item>1F442</item>
+        <item>1F9BB</item><!-- 12.0 ear with hearing aid -->
         <item>1F443</item>
         <item>1F9E0</item>
         <item>1F9B7</item>
@@ -1596,37 +1616,38 @@
         <item>1F9D2</item>
         <item>1F466</item>
         <item>1F467</item>
-        <item>1F9D1</item>
-        <item>1F471</item>
-        <item>1F468</item>
-        <item>1F9D4</item>
-        <item>1F469</item>
-        <item>1F471</item><!-- blond person, non gendered -->
+        <!-- hair color postfixes moved to emoji_people_modifiers -->
+        <item>1F9D1</item><!-- 10.0 person -->
+        <item>1F471</item><!-- 6.0 person: blond hair -->
+        <item>1F468</item><!-- 6.0 man -->
+        <item>1F9D4</item><!-- 10.0 man: beard -->
+        <item>1F469</item><!-- 6.0 woman -->
         <item>1F9D3</item>
         <item>1F474</item>
         <item>1F475</item>
         <!-- person-gesture -->
         <!-- without gender -->
-        <item>1F64D</item>
-        <item>1F64E</item>
-        <item>1F645</item>
-        <item>1F646</item>
-        <item>1F481</item>
-        <item>1F64B</item>
-        <item>1F647</item>
-        <item>1F926</item>
-        <item>1F937</item>
+        <item>1F64D</item><!-- 6.0 person frowning -->
+        <item>1F64E</item><!-- 6.0 person pouting -->
+        <item>1F645</item><!-- 6.0 person gesturing NO -->
+        <item>1F646</item><!-- 6.0 person gesturing OK -->
+        <item>1F481</item><!-- 6.0 person tipping hand -->
+        <item>1F64B</item><!-- 6.0 person raising hand -->
+        <item>1F9CF</item><!-- 12.0 deaf person -->
+        <item>1F647</item><!-- 6.0 person biwing -->
+        <item>1F926</item><!-- 9.0 person facepalming -->
+        <item>1F937</item><!-- 9.0 person shrugging -->
         <!-- person-role -->
-        <!-- roles used as modifiers moved to emoticons -->
+        <!-- role suffixes moved to modifiers -->
         <!-- as nouns: syntax role + male/female -->
-        <item>1F46E</item>
-        <item>1F575</item>
-        <item>1F482</item>
-        <item>1F477</item>
-        <item>1F934</item><!-- gendered -->
-        <item>1F478</item><!-- gendered -->
-        <item>1F473</item>
-        <item>1F472</item><!-- gendered -->
+        <item>1F46E</item><!-- 6.0 police officer -->
+        <item>1F575</item><!-- 7.0 detective -->
+        <item>1F482</item><!-- 6.0 guard -->
+        <item>1F477</item><!-- 6.0 construction worker -->
+        <item>1F934</item><!-- 9.0 prince -->
+        <item>1F478</item><!-- 6.0 princess -->
+        <item>1F473</item><!-- 6.0 person wearing turban -->
+        <item>1F472</item><!-- 6.0 man with Chinese cap -->
         <item>1F9D5</item><!-- gendered -->
         <item>1F935</item><!-- gendered -->
         <item>1F470</item><!-- gendered -->
@@ -1636,7 +1657,7 @@
         <item>1F47C</item><!-- gendered -->
         <item>1F385</item><!-- gendered -->
         <item>1F936</item><!-- gendered -->
-        <!-- accept gender modifier -->
+        <!-- accept gender suffix -->
         <item>1F9B8</item>
         <item>1F9B9</item>
         <item>1F9D9</item>
@@ -1651,6 +1672,9 @@
         <item>1F486</item>
         <item>1F487</item>
         <item>1F6B6</item>
+        <item>1F9CD</item><!-- 12.0 person standing -->
+        <item>1F9CE</item><!-- 12.0 person kneeling -->
+        <!-- activity suffixes moved to modifiers -->
         <item>1F3C3</item>
         <item>1F483</item><!-- gendered -->
         <item>1F57A</item><!-- gendered -->
@@ -1682,9 +1706,9 @@
         <item>1F6CC</item>
 
         <!-- family -->
-        <item>1F46D</item>
-        <item>1F46B</item>
-        <item>1F46C</item>
+        <item>1F46D</item><!-- 6.0 women holding hands -->
+        <item>1F46B</item><!-- 6.0 woman and man holding hands -->
+        <item>1F46C</item><!-- 6.0 men holding hands -->
         <item>1F48F</item>
         <item>1F491</item>
         <item>1F46A</item>
