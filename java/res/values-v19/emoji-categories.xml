@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 
-<!-- Reference: https://unicode.org/Public/emoji/12.0/emoji-test.txt -->
+<!-- Reference: https://unicode.org/Public/emoji/12.1/emoji-test.txt -->
 
 <!-- Note: This emoji code point list is valid on KLP and later (API >= 19).
      There is another emoji code point list for JB-MR2 under res/xml/values and values-v18.-->
@@ -977,10 +977,11 @@
         <item>1F3FE</item>
         <item>1F3FF</item>
         <!-- hair style -->
-        <item>1F9B0</item><!-- 11.0 red hair -->
-        <item>1F9B1</item><!-- 11.0 curly hair -->
-        <item>1F9B3</item><!-- 11.0 white hair -->
-        <item>1F9B2</item><!-- 11.0 bald -->
+        <!-- Emoji 12.1: can now apply to U+1F9D1 person -->
+        <item>1F9B0|200D,1F9B0</item><!-- 11.0 red hair -->
+        <item>1F9B1|200D,1F9B1</item><!-- 11.0 curly hair -->
+        <item>1F9B3|200D,1F9B3</item><!-- 11.0 white hair -->
+        <item>1F9B2|200D,1F9B2</item><!-- 11.0 bald -->
 
         <!-- gender = ZWJ + male/female symbol -->
         <!-- gender suffixes -->
@@ -988,6 +989,7 @@
         <item>1F469|200D,2640,FE0F</item>
 
         <!-- role suffixes -->
+        <!-- Emoji 12.1: can now apply to U+1F9D1 person -->
         <item>2695,FE0F|200D,2695,FE0F</item><!-- health worker -->
         <item>1F393|200D,1F393</item><!-- student -->
         <item>1F3EB|200D,1F3EB</item><!-- teacher -->
@@ -1006,6 +1008,7 @@
         <item>1F692|200D,1F692</item><!-- firefighter -->
 
         <!-- activity suffixes -->
+        <!-- Emoji 12.1: can now apply to U+1F9D1 person -->
         <item>1F9AF|200D,1F9AF</item><!-- 12.0 with probing cane -->
         <item>1F9BC|200D,1F9BC</item><!-- 12.0 in motorized wheelchair -->
         <item>1F9BD|200D,1F9BD</item><!-- 12.0 in manual wheelchair -->
